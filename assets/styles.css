@@ -19,27 +19,40 @@ p{
     color: rgb(70, 66, 66);
     line-height: 2;
 }
-nav{
-    height: 180px;
-    background-color: #319DA0;
+    /* hr styling */
+    
+.dotted-lines{     
+  text-align: center;
+  border-style:none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 8%;
+  color: grey;
+  margin: auto;
 }
+
+
+ 
+  /* Top-container  */
+
+
 .top-container{
     margin: 0 auto;
     max-width: 1100px;
     
-
-    
-   
+ /* top container --navbar */
        
+}
+nav{
+  height: 180px;
+  background-color: #319DA0;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 80px 30px 19px 50px;
-    height: 100%;
-    
-    
+    height: 100%;  
 }
 .header{
     font-size: 45px;
@@ -47,6 +60,7 @@ nav{
     text-decoration: none;
     font-weight: 600; 
 }
+ /* top container --navbar --> menu*/
 
 .menu ul{
     display: flex ;
@@ -75,15 +89,15 @@ nav{
     font-weight: 500;
 }
 
-/* image */
+  /* Background-image */
+
 #background-image {
     width: 100%;
     height: 250px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 
-
+  /* section -2 */
 
 .middle-container{
     margin: 100px 0 100px 0;
@@ -97,6 +111,10 @@ nav{
     width: 30%;
     margin: 30px auto
   }
+
+
+      /* section -3 */
+
 
   .skill-row{
     width: 80%;
@@ -123,6 +141,7 @@ nav{
     border: 1px solid black;
     cursor: pointer;
     padding: 2px;
+    transition: all 900ms;
   }
 
   .skill-picture:hover{
@@ -136,22 +155,8 @@ nav{
 
   }
   
-  /* .coding-picture:active{
-    border: 1px solid;
-    border-color: orange;
-    background-color: #11cdd4;
-  } */
+    /* Sectio- 4 */
 
-  .dotted-lines{
-    text-align: center;
-    border-style:none;
-    border-top-style: dotted;
-    border-width: 10px;
-    width: 8%;
-    color: grey;
-    margin: auto;
-
-  }
   .contact-me{
     margin: 30px;
     
@@ -165,7 +170,7 @@ nav{
   }
   
 
-               /* buttons           codes of buttons from online button creation  */
+               /* buttons    codes of buttons from online button creation  https://www.bestcssbuttongenerator.com/ */
 
   .btn {
     background: #11cdd4;
@@ -194,7 +199,7 @@ nav{
     text-decoration: none;
   }
 
-
+ /* Footer container */
 
 .bottom-container{
     background-color: #66BFBF;
@@ -202,7 +207,7 @@ nav{
   
   }
 .footer-note{
-    color: white;
+    color: rgb(10, 0, 0);
     font-size: 12px;
     margin: 60px auto 20px auto;
   }
@@ -212,7 +217,7 @@ nav{
     text-decoration: none;
 }
 .bottom-container a:hover{
-  color: white;
+  color: rgb(234, 235, 223);
 }
   
 
@@ -220,7 +225,10 @@ nav{
 
 
 
-/* responsive .navbar */
+/* responsive */
+
+
+
 @media (max-width: 900px) {
 
     .header{
