@@ -21,7 +21,7 @@ p{
 }
     /* hr styling */
     
-.dotted-lines{     
+.horizontal-lines{     
   text-align: center;
   border-style:none;
   border-top-style: dotted;
@@ -107,7 +107,7 @@ nav{
     margin: 0px 0px 60px;
   }
 
-  .intro{
+  .introduction{
     width: 30%;
     margin: 30px auto
   }
@@ -121,11 +121,13 @@ nav{
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
+    
   }
   .coding-picture{
     width: 15%;
     float: left;
     margin-right: 30px;
+    
   
   }
   .skill-picture{
@@ -136,7 +138,7 @@ nav{
     
   }
   .coding-picture:hover{
-    background-color: rgb(18, 222, 222);
+    background-color: #17e8e8;
     color: #17e8e8;
     border-radius: 180px;
     border: 1px solid black;
@@ -146,34 +148,24 @@ nav{
   }
 
   .skill-picture:hover{
-    background-color: rgb(18, 222, 222);
-    color: #17e8e8;
+    background-color: rgb(171, 222, 18);
+    color: #b4e817;
     border-radius: 180px;
     border: 1px solid rgb(18, 17, 17);
     cursor: pointer;
     padding: 2px;
     transition: all 900ms;
-
+    
   }
 
-/* .coding-picture:active{
-  background-color: yellow;
-}
-
-.skill-picture:active{
-  background-color: yellow;
-} */
-
-
-
   
-    /* Sectio- 4 */
+    /* Section- 4 */
 
-  .contact-me{
+  .contact{
     margin: 30px;
     
   }
-  .contact-me h2{
+  .contact h2{
     margin: 50px;
     font-size: 30px;
   }
@@ -269,7 +261,7 @@ nav{
         color: rgb(114, 77, 77);
      }
      .menu ul li a:hover{
-        color: rgb(237, 16, 171)
+        color: rgb(23, 205, 237)
      }
      #background-image{
         height: 400px;
