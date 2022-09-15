@@ -9,7 +9,9 @@ Project is created with:
 * 
     
 ## How to open..
-open the link of my github repository which i posted or i will updated the link in read me file later.
+open this link
+https://thomasaju.github.io/My-Portfolio/
+
 
 
 
